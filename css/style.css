@@ -106,6 +106,26 @@ a.cart-button.active span, a.cart-button:hover span{
 .login-section.borderTop {
 	border-top: 1px solid #e2e2e2;
 }
+.reg-menu {
+	transform-origin: 0 0;
+    background: #fff none repeat scroll 0 0;
+    height: auto;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 120px;
+    transform: scaleY(0);
+    transition: all 0.25s ease-in-out 0s;
+    visibility: hidden;
+    width: 560px;
+}
+.popup-header {
+	padding: 40px 20px;
+	font-size: 30px;
+	font-family: helveticaB;
+	color: #000;
+	text-align: center;
+}
 .custom-input:focus {
 	border-color: #ee1e24;
 }
@@ -479,4 +499,23 @@ footer, .footer-social {
 }
 .footer-icons a:hover{
 	opacity: 0.3;
+}
+.footer-menu {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 40px;
+	width: 100%;
+}
+.footer-menu li {
+    display: inline-block;
+    font-family: helveticaB;
+    font-size: 15px;
+    margin-right: 17px;
+    text-transform: uppercase;
+}
+.footer-menu li:last-of-type {
+    margin-right: 0;
+}
+footer a, footer {
+	color: #fff;
 }

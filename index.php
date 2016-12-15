@@ -34,6 +34,28 @@
 
 </head>
 <body>
+<!------------- POPUPS --------------->
+<div id="overaly-bg"></div>
+<div class="reg-menu"> 
+	<div class="login-section">
+		<div class="popup-header">
+			
+		</div>
+		<form action="#" method="post" class="login-form">
+			<input type="text" class="custom-input" placeholder="email address" />
+			<input type="text" class="custom-input" placeholder="password" />
+			<button type="submit" class="round-button">LOGIN</button>
+			<a href="#3" class="forgot">Forgot password?</a>
+		</form>
+	</div>
+	<div class="login-section borderTop">
+		<a href="#" class="round-button">CREATE AN ACCOUNT</a>
+	</div>
+	<div class="login-section red">
+		<a href="#" class="round-button white-button mrgA0">TRAINER REGISTRATION</a>
+	</div>
+</div>
+<!------------- / POPUPS --------------->
 <nav class="navbar navbar-default">
 	<div class="container-fluid">
 		<div class="navbar-header">
@@ -75,7 +97,6 @@
 					<div class="login-section red">
 						<a href="#" class="round-button white-button mrgA0">TRAINER REGISTRATION</a>
 					</div>
-					
 				</div>
 			</div>
 			<div class="cart-wrap">
@@ -414,11 +435,32 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-			<ul>
-				<li><a href="#3">About</a></li>
-				<li><a href="#3">The Science</a></li>
-				<li><a href="#3">item 3</a></li>
-			</ul>
+				<ul class="footer-menu">
+					<li><a href="#3">About</a></li>
+					<li><a href="#3">The Science</a></li>
+					<li><a href="#3">Products</a></li>
+					<li><a href="#3">Locations</a></li>
+					<li><a href="#3">Videos</a></li>
+					<li><a href="#3">Lagree 101</a></li>
+					<li><a href="#3">Testimonials</a></li>
+					<li><a href="#3">Studio</a></li>
+					<li><a href="#3">Press</a></li>
+					<li><a href="#3">FAQ</a></li>
+					<li><a href="#3">Licensing</a></li>
+					<li><a href="#3">Cerification</a></li>
+				</ul>
+			</div>
+			<div class="col-md-6 text-left">
+				<a href="#3">Terms & Conditions</a>
+				<span>/</span>
+				<a href="#3">Privacy Policy</a>
+				<span>/</span>
+				<a href="#3">Shipping & Returns</a>
+				<span>/</span>
+				<a href="#3">Sitemap</a>
+			</div>
+			<div class="col-md-6 text-right">
+				Lagree Fitness Copyright 2016. All Rights Reserved.
 			</div>
 		</div>
 	</div>
@@ -432,7 +474,10 @@
 	var swiper = new Swiper('.swiper-container', {
 		pagination: '.swiper-pagination',
 		paginationClickable: true,
-		direction: 'vertical'
+		direction: 'vertical',
+		speed: 800,
+		autoplay: 4000,
+        autoplayDisableOnInteraction: false
 	});
 	var swiper2 = new Swiper('.swiper-container-stories', {
 		pagination: '.swiper-pagination-stories',
