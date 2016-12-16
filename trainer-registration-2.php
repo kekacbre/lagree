@@ -56,6 +56,14 @@
 		<div class="row">
 			<form action="#" method="post">
 				<div class="col-md-10 col-md-offset-1">
+					<div class="reg-product-image"><img src="images/lagree101.png" alt="lagree 101" class="img-responsive" /></div>
+					<div class="reg-product-info">
+						<div class="reg-product-title">TRAINER REGISTRATION (COURSE 101)</div>
+						<div class="reg-product-price">$490.00</div>
+					</div>
+					<div class="reg-product-remove">REMOVE</div>
+				</div>
+				<div class="col-md-10 col-md-offset-1">
 					<div class="col-md-6">
 						<input type="text" class="custom-input" placeholder="first name" required />
 						<input type="text" class="custom-input" placeholder="address" required />
