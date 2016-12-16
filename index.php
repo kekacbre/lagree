@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="ATAK Interactive" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
 
 <title>Lagree Fitness</title>
 
@@ -34,99 +37,11 @@
 
 </head>
 <body>
-<!------------- POPUPS --------------->
-<div id="overaly-bg"></div>
-<div class="reg-menu"> 
-	<div class="login-section">
-		<div class="popup-header">
-			
-		</div>
-		<form action="#" method="post" class="login-form">
-			<input type="text" class="custom-input" placeholder="email address" />
-			<input type="text" class="custom-input" placeholder="password" />
-			<button type="submit" class="round-button">LOGIN</button>
-			<a href="#3" class="forgot">Forgot password?</a>
-		</form>
-	</div>
-	<div class="login-section borderTop">
-		<a href="#" class="round-button">CREATE AN ACCOUNT</a>
-	</div>
-	<div class="login-section red">
-		<a href="#" class="round-button white-button mrgA0">TRAINER REGISTRATION</a>
-	</div>
-</div>
-<!------------- / POPUPS --------------->
-<nav class="navbar navbar-default">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" class="image" /></a>
-		</div>
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">ABOUT</a></li>
-				<li><a href="#">THE SCIENCE</a></li>
-				<li><a href="#">PRODUCTS</a></li>
-				<li><a href="#">LICENSING</a></li>
-				<li><a href="#">CERTIFICATION</a></li>
-				<li><a href="#">LOCATIONS</a></li>
-				<li><a href="#">LAGREE 101</a></li>
-				<li><a href="#">CONTACT</a></li>
-			</ul>
-		</div>
-		<div class="nav-other">
-			<div class="login-wrap">
-				<a href="#" class="login-button">LOGIN</a>
-				<div class="login-menu"> 
-					<div class="login-section">
-						<form action="#" method="post" class="login-form">
-							<input type="text" class="custom-input" placeholder="email address" />
-							<input type="text" class="custom-input" placeholder="password" />
-							<button type="submit" class="round-button">LOGIN</button>
-							<a href="#3" class="forgot">Forgot password?</a>
-						</form>
-					</div>
-					<div class="login-section borderTop">
-						<a href="#" class="round-button">CREATE AN ACCOUNT</a>
-					</div>
-					<div class="login-section red">
-						<a href="#" class="round-button white-button mrgA0">TRAINER REGISTRATION</a>
-					</div>
-				</div>
-			</div>
-			<div class="cart-wrap">
-				<a href="#" class="cart-button"><span>2</span>CART</a>
-				<div class="cart-menu"> 
-					<div class="cart-item">
-						<div class="cart-image"><img src="images/cart-small1.png" alt="image" class="img-responsive" /></div>
-						<div class="cart-desc">
-							<div class="cart-title">Megaformer M3S - Used</div>
-							<div class="cart-price">$840.00</div>
-						</div>
-						<a href="#3" class="cart-delete" onclick="$(this).parent().slideUp();$(this).parent().slideUp();">REMOVE</a>
-					</div>
-					<div class="cart-item">
-						<div class="cart-image"><img src="images/cart-small1.png" alt="image" class="img-responsive" /></div>
-						<div class="cart-desc">
-							<div class="cart-title">Megaformer M3 - Used</div>
-							<div class="cart-price">$720.00</div>
-						</div>
-						<a href="#3" class="cart-delete" onclick="$(this).parent().slideUp();$(this).parent().slideUp();">REMOVE</a>
-					</div>
-					<div class="cart-sub-total">
-						<div class="cart-total-price">SUB-TOTAL: $1,560.00</div>
-						<a href="javascript:;" class="black-button">CHECKOUT</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</nav>
+
+<?php include('popups.php'); ?>
+
+<?php include('header.php'); ?>
+
 <section class="home">
 	<div class="swiper-container">
 		<div class="swiper-wrapper">
@@ -380,91 +295,7 @@
 	</div>
 </section>
 
-<section class="footer-social">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-				<div class="footer-insta">
-					<div class="insta-holder mrgB30">
-						<img src="images/footer-insta.jpg" alt="footer instagram" class="img-responsive" />
-					</div>
-					<p class="bold white">FOLLOW LAGREE FITNESS ON INSTAGRAM <a href="#3" class="red linkk">@LAGREEFITNESS</a></p>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="footer-twitter">
-					<div class="twitter-post">
-						<p class="red">2h ago</p>
-						I need a participant for a MET study today at 6 PM.
-						If anyone is interested, please let me know.
-					</div>
-					<div class="twitter-post">
-						<p class="red">4h ago</p>
-						We love the shakes! Thank you @ilovespepsi for
-						coming to our Mock training class today…
-					</div>
-					<div class="twitter-post">
-						<p class="red">2 days ago</p>
-						If you are not evolving, you are "devolving"
-					</div>
-					<p class="bold white">FOLLOW LAGREE FITNESS ON INSTAGRAM <a href="#3" class="red linkk">@LAGREEFITNESS</a></p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="footer-info">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8">
-				<h2 class="big bold red">310-990-0370 / <a href="mailto:info@lagreefitness.com" class="white linkk">info@lagreefitness.com</a></h2>
-				<p class="white mrgB0">For press inquiries, licensing, certification and general questions.</p>
-			</div>
-			<div class="col-md-4">
-				<div class="footer-icons">
-					<a href="#3"><img src="images/fb-footer.png" alt="image" class="img-responsive" /></a>
-					<a href="#3"><img src="images/tw-footer.png" alt="image" class="img-responsive" /></a>
-					<a href="#3"><img src="images/insta-footer.png" alt="image" class="img-responsive" /></a>
-					<a href="#3"><img src="images/yt-footer.png" alt="image" class="img-responsive" /></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<ul class="footer-menu">
-					<li><a href="#3">About</a></li>
-					<li><a href="#3">The Science</a></li>
-					<li><a href="#3">Products</a></li>
-					<li><a href="#3">Locations</a></li>
-					<li><a href="#3">Videos</a></li>
-					<li><a href="#3">Lagree 101</a></li>
-					<li><a href="#3">Testimonials</a></li>
-					<li><a href="#3">Studio</a></li>
-					<li><a href="#3">Press</a></li>
-					<li><a href="#3">FAQ</a></li>
-					<li><a href="#3">Licensing</a></li>
-					<li><a href="#3">Cerification</a></li>
-				</ul>
-			</div>
-			<div class="col-md-6 text-left">
-				<a href="#3">Terms & Conditions</a>
-				<span>/</span>
-				<a href="#3">Privacy Policy</a>
-				<span>/</span>
-				<a href="#3">Shipping & Returns</a>
-				<span>/</span>
-				<a href="#3">Sitemap</a>
-			</div>
-			<div class="col-md-6 text-right">
-				Lagree Fitness Copyright 2016. All Rights Reserved.
-			</div>
-		</div>
-	</div>
-</footer>
+<?php include('footer.php'); ?>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

@@ -1,0 +1,101 @@
+#radio-box {
+    display: inline-block;
+    line-height: 35px;
+    margin: 6px 20px 6px 0;
+    min-height: 45px;
+}
+#radio-box label {
+    color: #000;
+    text-transform: uppercase;
+}
+#radio-box2 {
+    float: left;
+    margin: 5px 15px 0 0;
+    width: auto;
+}
+#radio-box2 label {
+    color: #fff;
+    font: 14px arial;
+}
+#radio-box1 {
+    float: left;
+    margin: 10px 15px 10px 0;
+    width: auto;
+}
+#radio-box1 label {
+    color: #fff;
+    font: 14px arial;
+}
+[type="radio"]:not(:checked), [type="radio"]:checked {
+    left: -9999px;
+    position: absolute;
+}
+[type="radio"]:not(:checked) + label, [type="radio"]:checked + label {
+    cursor: pointer;
+    font-family: arial;
+    font-size: 12px;
+    padding-left: 26px;
+    position: relative;
+}
+[type="radio"]:not(:checked) + label::before, [type="radio"]:checked + label::before {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #d8d8d8;
+    border-radius: 50%;
+    content: "";
+    height: 24px;
+    left: -4px;
+    margin-top: 0;
+    position: absolute;
+    top: 5px;
+    width: 24px;
+}
+#map-filter [type="radio"]:not(:checked) + label::before, #map-filter [type="radio"]:checked + label::before {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    color: #333;
+    content: "";
+    height: 20px;
+    left: 0;
+    margin-top: -6px;
+    position: absolute;
+    top: 2px;
+    width: 20px;
+}
+[type="radio"]:not(:checked) + label::after, [type="radio"]:checked + label::after {
+    background: #a37e3f none repeat scroll 0 0;
+    border-radius: 50%;
+    content: "";
+    font-size: 23px;
+    font-weight: bold;
+    height: 24px;
+    left: -4px;
+    line-height: 20px;
+    margin-top: -3px;
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    transition: all 0.2s ease 0s;
+    width: 24px;
+}
+[type="radio"]:not(:checked) + label::after {
+    opacity: 0;
+    transform: scale(0);
+}
+[type="radio"]:checked + label::after {
+    opacity: 1;
+    transform: scale(0.5);
+}
+[type="radio"]:disabled:not(:checked) + label::before, [type="radio"]:disabled:checked + label::before {
+    background-color: #ddd;
+    border-color: #bbb;
+    box-shadow: none;
+}
+[type="radio"]:disabled:checked + label::after {
+    color: #999;
+}
+[type="radio"]:disabled + label {
+    color: #aaa;
+}
+@media only screen and (min-width: 770px) {
+}

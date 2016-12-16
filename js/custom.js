@@ -86,7 +86,7 @@ $('.nav-other').click(function(e) {
 
 $('#log-overlay, .close').click(function(){
 	$('#log-overlay').fadeOut();
-	$('#reg-box').fadeOut();
+	$('#reg-box').removeClass('show-box');
 	$('#login-box').fadeOut();
 	$('#forgot-box').fadeOut();
 	$('#myacc-box').fadeOut();
@@ -94,28 +94,30 @@ $('#log-overlay, .close').click(function(){
 });
 $('.reg-form').click(function(){
 	$('#log-overlay').fadeIn();
-	$('#reg-box').fadeIn();
+	$('.login-button').removeClass('active');
+	$('.login-menu').removeClass('show-menu');
+	$('#reg-box').addClass('show-box');
 	$('#login-box').fadeOut();
 	$('#forgot-box').fadeOut();
 	$('#myacc-box').fadeOut();
 });
 $('.login-form').click(function(){
 	$('#log-overlay').fadeIn();
-	$('#reg-box').fadeOut();
+	$('#reg-box').removeClass('show-box');
 	$('#login-box').fadeIn();
 	$('#forgot-box').fadeOut();
 	$('#myacc-box').fadeOut();
 });
 $('.forgot-form').click(function(){
 	$('#log-overlay').fadeIn();
-	$('#reg-box').fadeOut();
+	$('#reg-box').removeClass('show-box');
 	$('#login-box').fadeOut();
 	$('#forgot-box').fadeIn();
 	$('#myacc-box').fadeOut();
 });
 $('.myacc-form').click(function(){
 	$('#log-overlay').fadeIn();
-	$('#reg-box').fadeOut();
+	$('#reg-box').removeClass('show-box');
 	$('#login-box').fadeOut();
 	$('#forgot-box').fadeOut();
 	$('#myacc-box').fadeIn();
@@ -128,7 +130,7 @@ $('.modal').click(function(){
 
 $('.basket-button').click(function(){
 	$('#log-overlay').fadeIn();
-	$('#reg-box').fadeOut();
+	$('#reg-box').removeClass('show-box');
 	$('#login-box').fadeOut();
 	$('#forgot-box').fadeOut();
 	$('#myacc-box').fadeOut();

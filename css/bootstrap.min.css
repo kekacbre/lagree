@@ -1,6 +1,9 @@
+.borderB {border-bottom: 1px solid #e0e0d8;}
+.borderT {border-top: 1px solid #e0e0d8;}
 .borderL {border-left: 1px solid #e0e0d8;}
 .borderR {border-right: 1px solid #e0e0d8;}
 
+.padSec {padding: 60px 0}
 .padA0 {padding:0px !important}
 .padA5{padding:5px !important}
 .padA10{padding:10px !important}
