@@ -565,3 +565,35 @@ footer a, footer {
 	margin: 0;
 	text-transform: uppercase;
 }
+.reg-product-image {
+    border: 1px solid #d8d8d8;
+    float: left;
+    height: 90px;
+    margin-right: 15px;
+    padding: 5px;
+    text-align: center;
+    width: 90px;
+}
+.reg-product-info {
+    color: #000;
+    font-size: 15px;
+    padding: 20px 0;
+}
+.reg-product-price {
+	font-size: 20px;
+	color: #ee1e24;
+	font-family: helveticaB;
+}
+.reg-product-remove {
+    color: #b3b3b3;
+    float: right;
+    font-family: helveticaB;
+    font-size: 13px;
+    padding: 35px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.billing-address h3, .shipping-address h3 {
+	font-family: helveticaB;
+}

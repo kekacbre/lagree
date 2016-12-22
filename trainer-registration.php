@@ -54,7 +54,7 @@
 <section class="train-reg padSec">
 	<div class="container">
 		<div class="row">
-			<form action="#" method="post">
+			<form action="trainer-registration-2.php" method="post">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="col-md-6">
 						<input type="text" class="custom-input" placeholder="first name" required />
