@@ -6,6 +6,7 @@
 .red-bg {background: #ee1e24}
 .black-bg {background: #000}
 
+.gray {color: #b3b3b3}
 .black {color: #000}
 .white {color: #fff !important;}
 .red {color: #ee1e24 !important;}
@@ -596,4 +597,45 @@ footer a, footer {
 }
 .billing-address h3, .shipping-address h3 {
 	font-family: helveticaB;
+}
+.order-title {
+	font-size: 40px;
+	color: #fff;
+	font-family: helveticaB;
+}
+.order-text {
+	font-size: 15px;
+	color: #fff;
+	font-family: helveticaB;
+}
+.cart-qty {
+	font-size: 20px;
+	font-family: helveticaB;
+	padding-bottom: 20px;
+}
+.old-price {
+	color: #c3c3c3;
+	margin-left: 15px;
+}
+.checkout-cart-item {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #d8d8d8;
+}
+.checkout-cart-item:last-of-type {
+    border-bottom: medium none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.round-gray-button {
+	background: #262626;
+	text-align: center;
+	color: #fff;
+	font-family: helveticaB;
+	font-size: 15px;
+	height: 60px;
+	border-radius: 30px;
+	line-height: 60px;
+	display: block;
+	margin-bottom: 20px;
 }

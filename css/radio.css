@@ -1,3 +1,4 @@
+
 #radio-box {
     display: inline-block;
     line-height: 35px;
@@ -32,21 +33,23 @@
 }
 [type="radio"]:not(:checked) + label, [type="radio"]:checked + label {
     cursor: pointer;
-    font-family: arial;
-    font-size: 12px;
-    padding-left: 26px;
+    font-family: helveticaL;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-left: 32px;
     position: relative;
 }
 [type="radio"]:not(:checked) + label::before, [type="radio"]:checked + label::before {
-    background: transparent none repeat scroll 0 0;
+    background: #d8d8d8 none repeat scroll 0 0;
     border: 1px solid #d8d8d8;
-    border-radius: 50%;
+    border-radius: 0;
     content: "";
     height: 24px;
     left: -4px;
     margin-top: 0;
     position: absolute;
-    top: 5px;
+    top: 0;
     width: 24px;
 }
 #map-filter [type="radio"]:not(:checked) + label::before, #map-filter [type="radio"]:checked + label::before {
@@ -63,8 +66,8 @@
     width: 20px;
 }
 [type="radio"]:not(:checked) + label::after, [type="radio"]:checked + label::after {
-    background: #a37e3f none repeat scroll 0 0;
-    border-radius: 50%;
+    background: #ee1e24 none repeat scroll 0 0;
+    border-radius: 0;
     content: "";
     font-size: 23px;
     font-weight: bold;
@@ -74,7 +77,7 @@
     margin-top: -3px;
     position: absolute;
     text-align: center;
-    top: 8px;
+    top: 3px;
     transition: all 0.2s ease 0s;
     width: 24px;
 }

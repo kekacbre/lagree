@@ -11,14 +11,14 @@
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">ABOUT</a></li>
-				<li><a href="#">THE SCIENCE</a></li>
-				<li><a href="#">PRODUCTS</a></li>
-				<li><a href="#">LICENSING</a></li>
-				<li><a href="#">CERTIFICATION</a></li>
-				<li><a href="#">LOCATIONS</a></li>
-				<li><a href="#">LAGREE 101</a></li>
-				<li><a href="#">CONTACT</a></li>
+				<li class="active"><a href="about.php">ABOUT</a></li>
+				<li><a href="science1.php">THE SCIENCE</a></li>
+				<li><a href="products.php">PRODUCTS</a></li>
+				<li><a href="licencing.php">LICENSING</a></li>
+				<li><a href="certification.php">CERTIFICATION</a></li>
+				<li><a href="locations.php">LOCATIONS</a></li>
+				<li><a href="lagree101.php">LAGREE 101</a></li>
+				<li><a href="contact.php">CONTACT</a></li>
 			</ul>
 		</div>
 		<div class="nav-other">
