@@ -15,6 +15,7 @@
 .padB10{padding-bottom:10px !important}
 .padB20{padding-bottom:20px !important}
 .padB30{padding-bottom:30px !important}
+.padB40{padding-bottom:40px !important}
 .padB60{padding-bottom:60px !important}
 .padT0 {padding-top: 0px !important}
 .padT10{padding-top:10px !important}
@@ -3605,7 +3606,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
     min-height: 100px;
     position: relative;
 	border-radius: 0 !important;
-	z-index: 111111111;
+	z-index: 111;
 }
 @media (min-width:768px) {
 .navbar {

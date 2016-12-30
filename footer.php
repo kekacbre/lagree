@@ -60,7 +60,7 @@
 					<li><a href="#3">Locations</a></li>
 					<li><a href="#3">Videos</a></li>
 					<li><a href="#3">Lagree 101</a></li>
-					<li><a href="#3">Testimonials</a></li>
+					<li><a href="testimonials.php">Testimonials</a></li>
 					<li><a href="#3">Studio</a></li>
 					<li><a href="#3">Press</a></li>
 					<li><a href="#3">FAQ</a></li>

@@ -104,21 +104,21 @@
 <section class="boxes">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-4 flexx white-bg">
+			<div class="col-md-4 flexx white-bg boxes-wrap">
 				<div class="boxes-container">
 					<h2>STUDIO OWNERS</h2>
 					<p class="mrgB30 mrgT30">Physical fitness is made up of five basic elements: Cardio, Strength, Endurance, Body Composition, and Flexibility.</p>
 					<a href="about.html" class="round-button small">MORE INFO</a>
 				</div>
 			</div>
-			<div class="col-md-4 flexx black-bg">
+			<div class="col-md-4 flexx black-bg boxes-wrap">
 				<div class="boxes-container">
 					<h2 class="white">TRAINERS</h2>
 					<p class="white mrgB30 mrgT30">Physical fitness is made up of five basic elements: Cardio, Strength, Endurance, Body Composition, and Flexibility.</p>
 					<a href="about.html" class="round-button white-button small">MORE INFO</a>
 				</div>
 			</div>
-			<div class="col-md-4 flexx red-bg">
+			<div class="col-md-4 flexx red-bg boxes-wrap">
 				<div class="boxes-container">
 					<h2 class="white">PATENTED EQUIPMENT</h2>
 					<p class="white mrgB30 mrgT30">Physical fitness is made up of five basic elements: Cardio, Strength, Endurance, Body Composition, and Flexibility.</p>
@@ -222,21 +222,21 @@
 <section class="boxes">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-4 flexx black-bg">
+			<div class="col-md-4 flexx black-bg boxes-wrap">
 				<div class="boxes-container">
 					<h2 class="white">2ND EQUIPMENT FOR SALE</h2>
 					<p class="white mrgB30 mrgT30">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus efficitur mi, et vulputate leo tempor sit amet.</p>
 					<a href="about.html" class="round-button white-button small">MORE INFO</a>
 				</div>
 			</div>
-			<div class="col-md-4 flexx red-bg">
+			<div class="col-md-4 flexx red-bg boxes-wrap">
 				<div class="boxes-container">
 					<h2 class="white">STUDENT OF THE MONTH</h2>
 					<p class="white mrgB30 mrgT30">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus efficitur mi, et vulputate leo tempor sit amet.</p>
 					<a href="about.html" class="red-border-button small">MORE INFO</a>
 				</div>
 			</div>
-			<div class="col-md-4 flexx white-bg">
+			<div class="col-md-4 flexx white-bg boxes-wrap">
 				<div class="boxes-container">
 					<h2>THE MEGAFORMER CHALLENGE</h2>
 					<p class="mrgB30 mrgT30">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus efficitur mi, et vulputate leo tempor sit amet.</p>
@@ -323,6 +323,9 @@
     var swiper = new Swiper('.swiper-container-references', {
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
+		speed: 800,
+		autoplay: 2000,
+        autoplayDisableOnInteraction: false,
         slidesPerView: 6,
         centeredSlides: false,
         spaceBetween: 30,
