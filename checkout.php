@@ -103,22 +103,24 @@
 							</select>
 						</div>
 						<div class="col-md-6 shipping-address">
-							<h3 class="mrgB30">SHIPPING ADDRESS: <div id="check-box" style="margin: -7px 0 0 0; position: relative; float: right"><input id="offers" type="checkbox" name="offers"><label for="offers" style="padding-top: 3px;">Same as Billing</label></div></h3>
-							<input type="text" class="custom-input" placeholder="first name" required />
-							<input type="text" class="custom-input" placeholder="last name" required />
-							<input type="text" class="custom-input" placeholder="company (optional)" required />
-							<input type="email" class="custom-input" placeholder="email address" required />
-							<input type="text" class="custom-input" placeholder="address" required />
-							<input type="text" class="custom-input" placeholder="city" required />
-							<input type="text" class="custom-input" placeholder="zip/postal code" required />
-							<select class="select7" placeholder="country">
-								<option value="">country</option>
-								<option value="Azerbeidzan">count 0</option>
-								<option value="count 1">count 1</option>
-								<option value="count 2">count 2</option>
-								<option value="count 3">count 3</option>
-								<option value="count 4">count 4</option>
-							</select>
+							<h3 class="mrgB30">SHIPPING ADDRESS: <div id="check-box" style="margin: -7px 0 0 0; position: relative; float: right"><input id="offers" type="checkbox" name="offers" onClick="$('.shipping-mask').toggleClass('masking');"><label for="offers" style="padding-top: 3px;">Same as Billing</label></div></h3>
+							<div class="shipping-mask">
+								<input type="text" class="custom-input" placeholder="first name" required />
+								<input type="text" class="custom-input" placeholder="last name" required />
+								<input type="text" class="custom-input" placeholder="company (optional)" required />
+								<input type="email" class="custom-input" placeholder="email address" required />
+								<input type="text" class="custom-input" placeholder="address" required />
+								<input type="text" class="custom-input" placeholder="city" required />
+								<input type="text" class="custom-input" placeholder="zip/postal code" required />
+								<select class="select7" placeholder="country">
+									<option value="">country</option>
+									<option value="Azerbeidzan">count 0</option>
+									<option value="count 1">count 1</option>
+									<option value="count 2">count 2</option>
+									<option value="count 3">count 3</option>
+									<option value="count 4">count 4</option>
+								</select>
+							</div>
 						</div>				
 					</div>				
 				</div>

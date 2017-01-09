@@ -54,28 +54,28 @@
 		<div class="row">
 			<div class="col-md-12">
 				<ul class="footer-menu">
-					<li><a href="#3">About</a></li>
-					<li><a href="#3">The Science</a></li>
-					<li><a href="#3">Products</a></li>
-					<li><a href="#3">Locations</a></li>
-					<li><a href="#3">Videos</a></li>
-					<li><a href="#3">Lagree 101</a></li>
+					<li><a href="about.php">About</a></li>
+					<li><a href="science1.php">The Science</a></li>
+					<li><a href="products.php">Products</a></li>
+					<li><a href="locations.php">Locations</a></li>
+					<li><a href="videos.php">Videos</a></li>
+					<li><a href="lagree101.php">Lagree 101</a></li>
 					<li><a href="testimonials.php">Testimonials</a></li>
 					<li><a href="#3">Studio</a></li>
 					<li><a href="#3">Press</a></li>
-					<li><a href="#3">FAQ</a></li>
-					<li><a href="#3">Licensing</a></li>
-					<li><a href="#3">Cerification</a></li>
+					<li><a href="faq.php">FAQ</a></li>
+					<li><a href="licencing.php">Licensing</a></li>
+					<li><a href="certification.php">Cerification</a></li>
 				</ul>
 			</div>
 			<div class="col-md-6 text-left">
-				<a href="#3">Terms & Conditions</a>
+				<a href="terms.php">Terms & Conditions</a>
 				<span>/</span>
-				<a href="#3">Privacy Policy</a>
+				<a href="privacy.php">Privacy Policy</a>
 				<span>/</span>
-				<a href="#3">Shipping & Returns</a>
+				<a href="shipping.php">Shipping & Returns</a>
 				<span>/</span>
-				<a href="#3">Sitemap</a>
+				<a href="sitemap.php">Sitemap</a>
 			</div>
 			<div class="col-md-6 text-right">
 				Lagree Fitness Copyright 2016. All Rights Reserved.

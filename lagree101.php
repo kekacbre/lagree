@@ -66,63 +66,63 @@
 <section class="boxes">
 	<div class="container-fluid">
 		<div class="row lagree101-articles">
-			<a href="#3" class="col-md-4 flexx boxes-wrap lagree101-article">
+			<a href="lagree101-article.php" class="col-md-4 flexx boxes-wrap lagree101-article">
 				<div class="img-box"><img src="images/IMG-101.jpg" alt="image" class="object-fit-50" /></div>
 				<div class="boxes-container lagree101-box">
 					<p class="lagree101-title">THE SCIENCE OF LAGREE FITNESS</p>
 					<p class="lagree101-date">10/20/2016</p>					
 				</div>
 			</a>
-			<a href="#3" class="col-md-4 flexx boxes-wrap lagree101-article">
+			<a href="lagree101-article.php" class="col-md-4 flexx boxes-wrap lagree101-article">
 				<div class="img-box"><img src="images/img-1-101.jpg" alt="image" class="object-fit-50" /></div>
 				<div class="boxes-container lagree101-box">
 					<p class="lagree101-title">THE SCIENCE OF LAGREE FITNESS</p>
 					<p class="lagree101-date">10/20/2016</p>					
 				</div>
 			</a>
-			<a href="#3" class="col-md-4 flexx boxes-wrap lagree101-article">
+			<a href="lagree101-article.php" class="col-md-4 flexx boxes-wrap lagree101-article">
 				<div class="img-box"><img src="images/img-2-101.jpg" alt="image" class="object-fit-50" /></div>
 				<div class="boxes-container lagree101-box">
 					<p class="lagree101-title">THE SCIENCE OF LAGREE FITNESS</p>
 					<p class="lagree101-date">10/20/2016</p>					
 				</div>
 			</a>
-			<a href="#3" class="col-md-4 flexx boxes-wrap lagree101-article">
+			<a href="lagree101-article.php" class="col-md-4 flexx boxes-wrap lagree101-article">
 				<div class="img-box"><img src="images/img-3-101.jpg" alt="image" class="object-fit-50" /></div>
 				<div class="boxes-container lagree101-box">
 					<p class="lagree101-title">THE SCIENCE OF LAGREE FITNESS</p>
 					<p class="lagree101-date">10/20/2016</p>					
 				</div>
 			</a>
-			<a href="#3" class="col-md-4 flexx boxes-wrap lagree101-article">
+			<a href="lagree101-article.php" class="col-md-4 flexx boxes-wrap lagree101-article">
 				<div class="img-box"><img src="images/img-4-101.jpg" alt="image" class="object-fit-50" /></div>
 				<div class="boxes-container lagree101-box">
 					<p class="lagree101-title">THE SCIENCE OF LAGREE FITNESS</p>
 					<p class="lagree101-date">10/20/2016</p>					
 				</div>
 			</a>
-			<a href="#3" class="col-md-4 flexx boxes-wrap lagree101-article">
+			<a href="lagree101-article.php" class="col-md-4 flexx boxes-wrap lagree101-article">
 				<div class="img-box"><img src="images/img-5-101.jpg" alt="image" class="object-fit-50" /></div>
 				<div class="boxes-container lagree101-box">
 					<p class="lagree101-title">THE SCIENCE OF LAGREE FITNESS</p>
 					<p class="lagree101-date">10/20/2016</p>					
 				</div>
 			</a>
-			<a href="#3" class="col-md-4 flexx boxes-wrap lagree101-article">
+			<a href="lagree101-article.php" class="col-md-4 flexx boxes-wrap lagree101-article">
 				<div class="img-box"><img src="images/img-6-101.jpg" alt="image" class="object-fit-50" /></div>
 				<div class="boxes-container lagree101-box">
 					<p class="lagree101-title">THE SCIENCE OF LAGREE FITNESS</p>
 					<p class="lagree101-date">10/20/2016</p>					
 				</div>
 			</a>
-			<a href="#3" class="col-md-4 flexx boxes-wrap lagree101-article">
+			<a href="lagree101-article.php" class="col-md-4 flexx boxes-wrap lagree101-article">
 				<div class="img-box"><img src="images/img-7-101.jpg" alt="image" class="object-fit-50" /></div>
 				<div class="boxes-container lagree101-box">
 					<p class="lagree101-title">THE SCIENCE OF LAGREE FITNESS</p>
 					<p class="lagree101-date">10/20/2016</p>					
 				</div>
 			</a>
-			<a href="#3" class="col-md-4 flexx boxes-wrap lagree101-article">
+			<a href="lagree101-article.php" class="col-md-4 flexx boxes-wrap lagree101-article">
 				<div class="img-box"><img src="images/img-8-101.jpg" alt="image" class="object-fit-50" /></div>
 				<div class="boxes-container lagree101-box">
 					<p class="lagree101-title">THE SCIENCE OF LAGREE FITNESS</p>

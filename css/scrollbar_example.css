@@ -1,0 +1,15 @@
+#sidebar ul.customers::-webkit-scrollbar {
+  width: 5px;
+}
+
+#sidebar ul.customers::-webkit-scrollbar-thumb:vertical {
+  margin: 5px;
+  background-color: #999;
+  -webkit-border-radius: 5px;
+}
+
+#sidebar ul.customers::-webkit-scrollbar-button:start:decrement,
+#sidebar ul.customers::-webkit-scrollbar-button:end:increment {
+  height: 5px;
+  display: block;
+}

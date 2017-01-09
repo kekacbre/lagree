@@ -22,6 +22,7 @@
 .padT20{padding-top:20px !important}
 .padT30{padding-top:30px !important}
 .padT40{padding-top:40px !important}
+.padT50{padding-top:50px !important}
 .padT60{padding-top:60px !important}
 .padR0 {padding-right: 0px !important}
 .padR10{padding-right:10px !important}
@@ -43,6 +44,7 @@
 .mrgB10{margin-bottom:10px !important}
 .mrgB20{margin-bottom:20px !important}
 .mrgB30{margin-bottom:30px !important}
+.mrgB60{margin-bottom:60px !important}
 .mrgT0 {margin-top: 0px !important}
 .mrgT5 {margin-top: 5px !important}
 .mrgT10{margin-top:10px !important}
@@ -1097,11 +1099,12 @@ html {
 	-webkit-tap-highlight-color: rgba(0,0,0,0)
 }
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #333;
-	background-color: #fff
+	background-color: #fff;
+	padding-top: 100px;
 }
 button, input, select, textarea {
 	font-family: inherit;
@@ -1153,7 +1156,7 @@ hr {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border: 0;
-	border-top: 1px solid #eee
+	border-top: 1px solid #e2e2e2
 }
 .sr-only {
 	position: absolute;

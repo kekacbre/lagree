@@ -6,6 +6,16 @@ document.createElement('article');
 document.createElement('aside');
 document.createElement('footer');
 
+$(window).load(function() {
+	$("#loadingbar").animate({width: '23%'}, 100); 
+	$("#loadingbar").animate({width: '45%'}, 200); 
+	$("#loadingbar").animate({width: '58%'}, 50); 
+	$("#loadingbar").animate({width: '70%'}, 100); 
+	$("#loadingbar").animate({width: '101%'}, 300); 
+	$("#overlay").delay(950).animate({'bottom':'-200%'}, 1500);
+	$("#loadingbar").delay(650).animate({'top':'-20px'}, 500);
+});
+
 // textarea count characters
 function countChar(val) {
 	var len = val.value.length;
@@ -44,7 +54,7 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top-83
+          scrollTop: target.offset().top-33
         }, 1000);
         return false;
       }
@@ -61,14 +71,32 @@ $('#menu-button').click(function() {
 // search
 $('.login-button').click(function(e) {
 	e.stopPropagation();
-	$(this).toggleClass('active');
+	if($('.login-button').hasClass('active')){
+		$('#log-overlay').removeClass('show');
+		$(this).removeClass('active');
+	}else if($('.cart-button').hasClass('active') && !$('.login-button').hasClass('active')){
+		$('.cart-button').removeClass('active');
+		$(this).addClass('active');
+	}else if(!$('.cart-button').hasClass('active') && !$('.login-button').hasClass('active')){
+		$('#log-overlay').addClass('show');
+		$(this).addClass('active');
+	}
 	$('.cart-button').removeClass('active');
 	$('.login-menu').toggleClass('show-menu');
 	$('.cart-menu').removeClass('show-cart');
 });
 $('.cart-button').click(function(e) {
 	e.stopPropagation();
-	$(this).toggleClass('active');
+	if($('.cart-button').hasClass('active')){
+		$('#log-overlay').removeClass('show');
+		$(this).removeClass('active');
+	}else if(!$('.cart-button').hasClass('active') && $('.login-button').hasClass('active')){
+		$('.login-button').removeClass('active');
+		$(this).addClass('active');
+	}else if(!$('.cart-button').hasClass('active') && !$('.login-button').hasClass('active')){
+		$('#log-overlay').addClass('show');
+		$(this).addClass('active');
+	}
 	$('.login-button').removeClass('active');
 	$('.login-menu').removeClass('show-menu');
 	$('.cart-menu').toggleClass('show-cart');
@@ -78,22 +106,23 @@ $('html').click(function() {
 	$('.cart-menu').removeClass('show-cart');
 	$('.cart-button').removeClass('active');
 	$('.login-button').removeClass('active');
+	$('#log-overlay').removeClass('show');
 });
-$('.nav-other').click(function(e) {
+$('.nav-other, #reg-box').click(function(e) {
 	e.stopPropagation();
 });
 
 
 $('#log-overlay, .close').click(function(){
-	$('#log-overlay').fadeOut();
+	$('#log-overlay').removeClass('show');
 	$('#reg-box').removeClass('show-box');
 	$('#login-box').fadeOut();
 	$('#forgot-box').fadeOut();
 	$('#myacc-box').fadeOut();
 	$('#basket-popup').fadeOut();
 });
-$('.reg-form').click(function(){
-	$('#log-overlay').fadeIn();
+$('.reg-form-button').click(function(){
+	$('#log-overlay').addClass('show');
 	$('.login-button').removeClass('active');
 	$('.login-menu').removeClass('show-menu');
 	$('#reg-box').addClass('show-box');
@@ -101,22 +130,15 @@ $('.reg-form').click(function(){
 	$('#forgot-box').fadeOut();
 	$('#myacc-box').fadeOut();
 });
-$('.login-form').click(function(){
-	$('#log-overlay').fadeIn();
-	$('#reg-box').removeClass('show-box');
-	$('#login-box').fadeIn();
-	$('#forgot-box').fadeOut();
-	$('#myacc-box').fadeOut();
-});
 $('.forgot-form').click(function(){
-	$('#log-overlay').fadeIn();
+	$('#log-overlay').addClass('show');
 	$('#reg-box').removeClass('show-box');
 	$('#login-box').fadeOut();
 	$('#forgot-box').fadeIn();
 	$('#myacc-box').fadeOut();
 });
 $('.myacc-form').click(function(){
-	$('#log-overlay').fadeIn();
+	$('#log-overlay').addClass('show');
 	$('#reg-box').removeClass('show-box');
 	$('#login-box').fadeOut();
 	$('#forgot-box').fadeOut();
@@ -126,16 +148,7 @@ $('.modal').click(function(){
 	$('.modal-overlay').fadeIn();
 	$('.modal-box').fadeOut();
 });
-	$('#basket-popup').fadeOut();
 
-$('.basket-button').click(function(){
-	$('#log-overlay').fadeIn();
-	$('#reg-box').removeClass('show-box');
-	$('#login-box').fadeOut();
-	$('#forgot-box').fadeOut();
-	$('#myacc-box').fadeOut();
-	$('#basket-popup').fadeIn();
-});
 
 
 });

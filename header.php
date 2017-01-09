@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -34,7 +34,7 @@
 						</form>
 					</div>
 					<div class="login-section borderTop">
-						<a href="#" class="round-button reg-form">CREATE AN ACCOUNT</a>
+						<a href="#" class="round-button reg-form-button">CREATE AN ACCOUNT</a>
 					</div>
 					<div class="login-section red">
 						<a href="trainer-registration.php" class="round-button white-button mrgA0 reg-form-trainer">TRAINER REGISTRATION</a>

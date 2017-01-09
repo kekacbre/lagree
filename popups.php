@@ -1,3 +1,7 @@
+<div id="overlay">
+	<div id="loadingbar"></div>
+</div>
+
 <div id="log-overlay"></div>
 <div class="reg-menu" id="reg-box"> 
 	<div class="reg-section">

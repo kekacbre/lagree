@@ -1,8 +1,14 @@
-.slider-location {
-	color: #fff;
-	line-height: 30px;
-	font-size: 15px;
-	margin: 30px 0;
+.used-product .swiper-slide {
+	border-right: 1px solid #e2e2e2;
+}
+.swiper-button-prev.swiper-button-white.used-prev {
+    left: auto !important;
+    right: 60px !important;
+}
+.swiper-container-product img {
+	width: 100%;
+	height: 600px;
+	object-fit: cover;
 }
 .slider-location {
 	color: #fff;
@@ -77,6 +83,14 @@
         width: 100%;
         height: calc(100vh - 100px);
     }
+    .swiper-container-used {
+        width: 100%;
+        height: 650px;
+    }
+    .swiper-container-product {
+        width: 100%;
+        height: 600px;
+    }
     .swiper-container-stories {
         width: 100%;
         height: 600px;
@@ -117,7 +131,7 @@
     }
 
 	
-.swiper-container, .swiper-container-stories, .swiper-container-locations, .swiper-container-references {
+.swiper-container, .swiper-container-stories, .swiper-container-locations, .swiper-container-references, .swiper-container-product, .swiper-container-used {
   margin: 0 auto;
   position: relative;
   overflow: hidden;
