@@ -1246,3 +1246,8 @@ button.close {
 	text-decoration: line-through;
 	margin-left: 20px;
 }
+.other-videos {
+    float: right;
+    height: 580px;
+    width: 20%;
+}
