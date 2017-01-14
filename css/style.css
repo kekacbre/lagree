@@ -1,3 +1,82 @@
+.single-product-price {
+	font-size: 30px;
+	font-family: helveticaB;
+	color: #000;
+	margin: 20px 0;
+}
+.single-product-price span{
+	font-size: 30px;
+	font-family: helveticaB;
+	color: #b3b3b3;
+	text-decoration: line-through;
+	margin-left: 20px;
+}
+.product-item-desc.single-product {
+	text-align: left;
+	padding-top: 40px;	
+	padding-bottom: 40px;	
+}
+.single-product {
+    border-left: 1px solid #d8d8d8;
+}
+.product-item-desc .condition {
+    font-family: helveticaB;
+    margin-bottom: 20px;
+}
+.list-focus p {
+	color: #fff;
+}
+.list-focus {
+	background-color: #000;
+}
+.map-list .boxes-wrap-small:hover {
+	background-color: #f2f2f2;
+	cursor: pointer;
+}
+.map-list .boxes-wrap-small:nth-child(3) {
+    border-right: medium none;
+}
+.map-list .boxes-wrap-small {
+    border-bottom: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+}
+.list-focus .numbers {
+    background: #000 none repeat scroll 0 0;
+    border-radius: 50%;
+	border: 2px solid #fff;
+    color: #fff;
+    display: inline-block;
+    font-family: helveticaB;
+    font-size: 30px;
+    height: 60px;
+    line-height: 60px;
+    width: 60px;
+}
+.numbers {
+    background: #d8d8d8 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-family: helveticaB;
+    font-size: 30px;
+    height: 60px;
+    line-height: 60px;
+    width: 60px;
+}
+.map-search {
+    position: relative;
+}
+.map-search .white-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 120px;
+}
+.map-search .custom-input {
+    background: transparent none repeat scroll 0 0;
+    text-align: left;
+}
+
 .masking {
 	opacity: 0.3;
 	pointer-events: none;
@@ -280,6 +359,11 @@ a.cart-button.active span, a.cart-button:hover span{
 	background: #fff;
 	color: #000;
 } 
+.red-border-button.to-black:hover {
+    border: 1px solid #000;
+	background: #000;
+	color: #fff;
+} 
 .red-button {
     border: 1px solid #ee1e24;
     border-radius: 25px;
@@ -478,6 +562,9 @@ a.cart-button.active span, a.cart-button:hover span{
 }
 .boxes-wrap {
 	height: 410px;
+}
+.boxes-wrap-small {
+	height: 320px;
 }
 .boxes-container {
     position: relative;
@@ -1229,17 +1316,17 @@ button.close {
 .product-item-desc > p {
 	margin-bottom: 50px;
 }
-.user-slide {
+.used-slide {
 	padding: 0 40px;
 	letter-spacing: 1px;
 }
-.user-product-price {
+.used-product-price {
 	font-size: 20px;
 	font-family: helveticaB;
 	color: #000;
 	margin: 20px 0;
 }
-.user-product-price span{
+.used-product-price span{
 	font-size: 20px;
 	font-family: helveticaB;
 	color: #b3b3b3;

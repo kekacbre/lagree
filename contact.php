@@ -82,7 +82,7 @@
 			</div>
 			<div class="col-md-4 flexx boxes-wrap">
 				<div class="boxes-container text-center">
-					<h2 class="bold">LICENSING & CERTIFICATION</h2>
+					<h2 class="bold mrgB20">LICENSING & CERTIFICATION</h2>
 					<a href="www.lagreestudio.com" class="round-button black-button big">GET LICENCED TODAY</a>
 					<a href="www.lagreestudio.com" class="round-button big">GET CERTIFIED TODAY</a>
 					<p class="mrgT10 mrgB10">Follow Lagree Fitness On:</p>

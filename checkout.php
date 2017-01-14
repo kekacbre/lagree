@@ -70,7 +70,7 @@
 							<div class="reg-product-title">Megaformer M3S - Used</div>
 							<div class="reg-product-price">$840.00 <span class="old-price">$910.00</span></div>
 						</div>
-						<a href="#3" class="reg-product-remove">REMOVE</a>
+						<a href="#3" class="reg-product-remove" onClick="$(this).parent().slideUp();">REMOVE</a>
 					</div>
 					<div class="checkout-cart-item col-md-10 col-md-offset-1">
 						<div class="reg-product-image"><img src="images/lagree101.jpg" alt="lagree 101" class="img-responsive" /></div>
@@ -78,7 +78,7 @@
 							<div class="reg-product-title">TRAINER REGISTRATION (COURSE 101)</div>
 							<div class="reg-product-price">$490.00</div>
 						</div>
-						<a href="#3" class="reg-product-remove">REMOVE</a>
+						<a href="#3" class="reg-product-remove" onClick="$(this).parent().slideUp();">REMOVE</a>
 					</div>
 				</div>
 				<hr>
