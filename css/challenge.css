@@ -1,0 +1,9 @@
+.prize-swiper .swiper-slide {
+    border-right: 1px solid #e2e2e2;
+}
+.coming-soon-title {
+	font-size: 80px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: helveticaB;
+}

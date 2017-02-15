@@ -30,6 +30,7 @@
 <link rel="shortcut icon" href="images/favicon.png" />
 <link rel="stylesheet" href="css/swiper.css">
 <link rel="stylesheet" href="css/checkbox.css">
+<link rel="stylesheet" href="css/jquery-select7.css">
 
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -46,7 +47,7 @@
 <section class="header-section">
 	<div class="container">
 		<div class="row">
-			<h1 class="header-title">TRAINER REGISTRATION</h1>
+			<h1 class="header-title">CHALLENGE REGISTRATION</h1>
 		</div>
 	</div>
 </section>
@@ -54,28 +55,69 @@
 <section class="train-reg padSec">
 	<div class="container">
 		<div class="row">
+			<div class="col-md-12 text-center padB60 mrgB60 borderB"><img src="images/black-challenge-logo.png" alt="image" class="img-responsive" /></div>
+		</div>
+		<div class="row">
 			<form action="trainer-registration-2.php" method="post">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="col-md-6">
 						<input type="text" class="custom-input" placeholder="first name" required />
-						<input type="text" class="custom-input" placeholder="address" required />
-						<input type="text" class="custom-input" placeholder="state" required />
-						<input type="text" class="custom-input" placeholder="phone #" required />
+						<select class="select7" placeholder="gender" required>
+							<option value="">gender</option>
+							<option value="male">male</option>
+							<option value="female">female</option>
+						</select>
 						<input type="password" class="custom-input" placeholder="password" required />
-						<input type="text" class="custom-input" placeholder="registration code (optional)" />
+						<input type="text" class="custom-input" placeholder="age" required />
+						<select class="select7" placeholder="height" required>
+							<option value="">height</option>
+							<option value="1">5' 0''</option>
+							<option value="2">5' 1''</option>
+							<option value="3">5' 2''</option>
+						</select>
+						<select class="select7" placeholder="starting waist" required>
+							<option value="">starting waist</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+						</select>
 					</div>
 					<div class="col-md-6">
 						<input type="text" class="custom-input" placeholder="last name" required />
-						<input type="text" class="custom-input" placeholder="city" required />
-						<input type="text" class="custom-input" placeholder="zip code" required />
 						<input type="email" class="custom-input" placeholder="email address" required />
 						<input type="password" class="custom-input" placeholder="repeat password" required />
-						<button type="password" class="black-button" placeholder="repeat password">E-SIGNATURE</button>
+						<select class="select7" placeholder="starting weight" required>
+							<option value="">starting weight</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+						</select>
+						<select class="select7" placeholder="starting arms" required>
+							<option value="">starting arms</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+						</select>
+						<select class="select7" placeholder="starting thighs" required>
+							<option value="">starting thighs</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+						</select>
 					</div>				
 				</div>				
 				<div class="col-md-12 text-center">
 					<hr class="mrgT30 mrgB30">
-					<div id="check-box"><input id="offers" type="checkbox" name="offers"><label for="offers">I have agreed and signed the Terms of Services</label></div>
+					<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<select class="select7" placeholder="your favorite lagree studio?" required>
+							<option value="">your favorite lagree studio?</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+						</select>
+					</div>
+					</div>
 					<hr class="mrgT30 mrgB30">
 				</div>
 				<div class="col-md-10 col-md-offset-1 text-center">
@@ -92,6 +134,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/custom.js"></script>
-
+<script src="js/jquery-select7.js"></script>
+<script>
+	$(".select7").select7();
+</script>
 </body>
 </html>
